@@ -28,10 +28,42 @@
   color: #61dafb;
 }
 
+.Search {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  /* Adjust the padding as needed */
+  background-color: #3498db;
+  /* Change to your desired background color */
+  color: #ffffff;
+  /* Change to your desired text color */
+  border: none;
+  border-radius: 5px;
+  /* Adjust the border-radius for rounded corners */
+  font-size: 16px;
+  /* Change to your desired font size */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.BudgetInput {
+  width: 25%;
+  /* Adjust the width as needed */
+  padding: 10px;
+  /* Adjust the padding as needed */
+  border: 10px solid #ccc;
+  /* Border color and thickness */
+  border-radius: 10px;
+  /* Rounded corners */
+  font-size: 16px;
+  /* Font size */
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
